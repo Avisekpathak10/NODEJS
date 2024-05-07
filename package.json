@@ -1,13 +1,17 @@
 {
-  "name": "your-project-name",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "name": "node2",
   "version": "1.0.0",
-  "description": "Your project description",
   "main": "index.js",
   "scripts": {
-    "start": "npm start"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server":"node server.js"
   },
-
-"dependencies": {
-  "express": "^4.19.2"
-}
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
