@@ -1,5 +1,13 @@
 {
-  "dependencies": {
-    "express": "^4.19.2"
-  }
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start"
+  },
+
+"dependencies": {
+  "express": "^4.19.2"
+}
 }
